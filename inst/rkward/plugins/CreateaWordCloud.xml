@@ -1,0 +1,96 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="CreateaWordCloud.js" />
+	<help file="CreateaWordCloud.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Generate Word Cloud">
+		<row id="row_vDIDITCMTN">
+			<varselector id="v_sel_corpus" />
+			<tabbook>
+				<tab label="Data Input" id="tab_DataInpt">
+					<column id="clm_vTCMTN1501">
+						<varslot id="inp_corpus" label="Text Corpus (tm object from rk.text.mining)" source="v_sel_corpus" required="true" />
+						<spinbox label="Maximum words to display (Top N)" id="spin_topn" initial="150" min="10" max="2000" />
+						<spinbox label="Minimum word frequency" id="spin_minfreq" initial="2" min="1" max="5000" />
+						<input label="Extra Stopwords to remove (comma separated, e.g., 'said, the, also')" id="inp_stopwords" />
+						<stretch />
+					</column>
+				</tab>
+				<tab label="Appearance" id="tab_Appearnc">
+					<column id="clm_dCSCDCHDTP">
+						<dropdown id="drop_shape" label="Cloud Shape">
+							<option label="Circle (Default)" value="circle" checked="true" />
+							<option label="Cardioid / Heart" value="cardioid" />
+							<option label="Diamond" value="diamond" />
+							<option label="Triangle" value="triangle-forward" />
+							<option label="Pentagon" value="pentagon" />
+							<option label="Star" value="star" />
+						</dropdown>
+						<dropdown id="drop_pal" label="Color Palette">
+							<option label="Spectral (Highly Recommended)" value="Spectral" checked="true" />
+							<option label="Dark2" value="Dark2" />
+							<option label="Set1" value="Set1" />
+							<option label="Set2" value="Set2" />
+							<option label="Paired" value="Paired" />
+							<option label="Blues" value="Blues" />
+							<option label="Reds" value="Reds" />
+						</dropdown>
+						<dropdown id="drop_rot" label="Word Rotation">
+							<option label="Horizontal Only (Clean)" value="horizontal" checked="true" />
+							<option label="Classic (Horizontal &amp; 90° Vertical)" value="classic" />
+							<option label="Chaotic (Random Angles)" value="chaotic" />
+						</dropdown>
+						<checkbox id="chk_dark" label="Dark Mode (Black Background)" value="1" value_unchecked="0" />
+						<frame label="Word Size Settings" id="frm_WrdSzStt">
+							<row id="row_sMS3120MS1">
+								<spinbox label="Min Size" id="spin_size_min" initial="3" min="1" max="20" />
+								<spinbox label="Max Size" id="spin_size_max" initial="15" min="5" max="60" />
+							</row>
+						</frame>
+						<stretch />
+					</column>
+				</tab>
+				<tab label="Output &amp; Export" id="tab_OtptExpr">
+					<column id="clm_fGESGESDPN">
+						<frame label="Graphics Export Settings" id="frm_GrphcsES">
+							<dropdown id="device_type" label="Device type">
+								<option label="PNG" value="PNG" checked="true" />
+								<option label="SVG" value="SVG" />
+								<option label="JPG" value="JPG" />
+							</dropdown>
+							<row id="row_sW12001004">
+								<spinbox label="Width (px)" id="dev_width" initial="1200" min="100" max="4000" />
+								<spinbox label="Height (px)" id="dev_height" initial="1000" min="100" max="4000" />
+							</row>
+							<column id="clm_sR15050600">
+								<spinbox label="Resolution (ppi)" id="dev_res" initial="150" min="50" max="600" />
+								<dropdown id="dev_bg" label="Background Override">
+									<option label="Follow Dark Mode settings" value="auto" checked="true" />
+									<option label="Transparent" value="transparent" />
+									<option label="White" value="white" />
+								</dropdown>
+							</column>
+						</frame>
+						<saveobject label="Save Plot Object" checkable="true" checked="true" initial="p" id="save_plot_obj" />
+						<preview label="Preview" id="preview_wc" />
+					</column>
+				</tab>
+			</tabbook>
+		</row>
+	</dialog>
+</document>

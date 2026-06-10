@@ -1,0 +1,19 @@
+Package: rk.word.cloud
+Type: Package
+Title: Generate beautiful, customizable word clouds using ggwordcloud
+        from tm Corpus objects.
+Version: 0.0.1
+Date: 2026-06-09
+Author: Alfonso Cano
+Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
+Depends: R (>= 3.5.0)
+Suggests: tm, slam, ggplot2, ggwordcloud, RColorBrewer
+Enhances: rkward
+Description: Generate beautiful, customizable word clouds using
+        ggwordcloud from tm Corpus objects.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: https://github.com/AlfCano/rk.word.cloud
+Authors@R: person(given="Alfonso", family="Cano",
+        email="alfonso.cano@correo.buap.mx", role=c("aut", "cre"))

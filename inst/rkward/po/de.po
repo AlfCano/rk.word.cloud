@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.word.cloud 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-06-09 17:50-0600\n"
+"PO-Revision-Date: 2026-06-09 17:50-0600\n"
+"Last-Translator: Alfonso Cano <alfonso.cano@correo.buap.mx>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Create a Word Cloud"
+msgstr "Wortwolke Erstellen"
+
+msgid "Generate Word Cloud"
+msgstr "Wortwolke Generieren"
+
+msgid "Text Corpus (tm object from rk.text.mining)"
+msgstr "Textkorpus (tm-Objekt aus rk.text.mining)"
+
+msgid "Maximum words to display (Top N)"
+msgstr "Maximale Anzahl anzuzeigender Wörter (Top N)"
+
+msgid "Minimum word frequency"
+msgstr "Minimale Worthäufigkeit"
+
+msgid "Extra Stopwords to remove (comma separated, e.g., 'said, the, also')"
+msgstr "Zusätzliche zu entfernende Stopwörter (kommagetrennt)"
+
+msgid "Cloud Shape"
+msgstr "Wolkenform"
+
+msgid "Circle (Default)"
+msgstr "Kreis (Standard)"
+
+msgid "Cardioid / Heart"
+msgstr "Kardioide / Herz"
+
+msgid "Diamond"
+msgstr "Diamant"
+
+msgid "Triangle"
+msgstr "Dreieck"
+
+msgid "Pentagon"
+msgstr "Fünfeck"
+
+msgid "Star"
+msgstr "Stern"
+
+msgid "Color Palette"
+msgstr "Farbpalette"
+
+msgid "Spectral (Highly Recommended)"
+msgstr "Spectral (Sehr Empfohlen)"
+
+msgid "Word Rotation"
+msgstr "Wortrotation"
+
+msgid "Horizontal Only (Clean)"
+msgstr "Nur Horizontal (Sauber)"
+
+msgid "Classic (Horizontal & 90° Vertical)"
+msgstr "Klassisch (Horizontal & 90° Vertikal)"
+
+msgid "Chaotic (Random Angles)"
+msgstr "Chaotisch (Zufällige Winkel)"
+
+msgid "Dark Mode (Black Background)"
+msgstr "Dunkelmodus (Schwarzer Hintergrund)"
+
+msgid "Word Size Settings"
+msgstr "Wortgrößen-Einstellungen"
+
+msgid "Min Size"
+msgstr "Minimale Größe"
+
+msgid "Max Size"
+msgstr "Maximale Größe"
+
+msgid "Graphics Export Settings"
+msgstr "Grafikexport-Einstellungen"
+
+msgid "Device type"
+msgstr "Gerätetyp"
+
+msgid "Width (px)"
+msgstr "Breite (px)"
+
+msgid "Height (px)"
+msgstr "Höhe (px)"
+
+msgid "Resolution (ppi)"
+msgstr "Auflösung (ppi)"
+
+msgid "Background Override"
+msgstr "Hintergrund Überschreiben"
+
+msgid "Follow Dark Mode settings"
+msgstr "Dunkelmodus-Einstellungen folgen"
+
+msgid "Transparent"
+msgstr "Transparent"
+
+msgid "White"
+msgstr "Weiß"
+
+msgid "Save Plot Object"
+msgstr "Plot-Objekt speichern"
+
+msgid "Data Input"
+msgstr "Dateneingabe"
+
+msgid "Appearance"
+msgstr "Aussehen"
+
+msgid "Output & Export"
+msgstr "Ausgabe & Export"

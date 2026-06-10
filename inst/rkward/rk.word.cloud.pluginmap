@@ -1,0 +1,92 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="CreateaWordCloud"
+	id="CreateaWordCloud_rkward"
+	po_id="CreateaWordCloud_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<dependencies
+		R_min_version="3.5.0"
+	>
+		<package
+			name="tm"
+		/>
+		<package
+			name="slam"
+		/>
+		<package
+			name="ggplot2"
+		/>
+		<package
+			name="ggwordcloud"
+		/>
+		<package
+			name="RColorBrewer"
+		/>
+	</dependencies>
+	<about
+		name="rk.word.cloud"
+		shortinfo="Generate beautiful, customizable word clouds using ggwordcloud from tm Corpus objects."
+		longinfo="Generate beautiful, customizable word clouds using ggwordcloud from tm Corpus objects."
+		version="0.0.1"
+		releasedate="2026-06-09"
+		url="https://github.com/AlfCano/rk.word.cloud"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_CreateaWordCloudCrtWrdCld"
+			label="Create a Word Cloud"
+			type="standard"
+			file="plugins/CreateaWordCloud.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="WordCloud"
+				label="Word Cloud"
+			>
+				<entry
+					component="cmp_CreateaWordCloudCrtWrdCld"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.word.cloud 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-06-09 17:50-0600\n"
+"PO-Revision-Date: 2026-06-09 17:50-0600\n"
+"Last-Translator: Alfonso Cano <alfonso.cano@correo.buap.mx>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Create a Word Cloud"
+msgstr "Crear Nube de Palabras"
+
+msgid "Generate Word Cloud"
+msgstr "Generar Nube de Palabras"
+
+msgid "Text Corpus (tm object from rk.text.mining)"
+msgstr "Corpus de Texto (objeto tm de rk.text.mining)"
+
+msgid "Maximum words to display (Top N)"
+msgstr "Máximo de palabras a mostrar (Top N)"
+
+msgid "Minimum word frequency"
+msgstr "Frecuencia mínima de palabras"
+
+msgid "Extra Stopwords to remove (comma separated, e.g., 'said, the, also')"
+msgstr "Stopwords extra a eliminar (separadas por coma, ej. 'dijo, la, también')"
+
+msgid "Cloud Shape"
+msgstr "Forma de la Nube"
+
+msgid "Circle (Default)"
+msgstr "Círculo (Por Defecto)"
+
+msgid "Cardioid / Heart"
+msgstr "Cardioide / Corazón"
+
+msgid "Diamond"
+msgstr "Diamante"
+
+msgid "Triangle"
+msgstr "Triángulo"
+
+msgid "Pentagon"
+msgstr "Pentágono"
+
+msgid "Star"
+msgstr "Estrella"
+
+msgid "Color Palette"
+msgstr "Paleta de Colores"
+
+msgid "Spectral (Highly Recommended)"
+msgstr "Spectral (Altamente Recomendado)"
+
+msgid "Word Rotation"
+msgstr "Rotación de Palabras"
+
+msgid "Horizontal Only (Clean)"
+msgstr "Solo Horizontal (Limpio)"
+
+msgid "Classic (Horizontal & 90° Vertical)"
+msgstr "Clásico (Horizontal y Vertical a 90°)"
+
+msgid "Chaotic (Random Angles)"
+msgstr "Caótico (Ángulos Aleatorios)"
+
+msgid "Dark Mode (Black Background)"
+msgstr "Modo Oscuro (Fondo Negro)"
+
+msgid "Word Size Settings"
+msgstr "Configuración de Tamaño de Palabras"
+
+msgid "Min Size"
+msgstr "Tamaño Mínimo"
+
+msgid "Max Size"
+msgstr "Tamaño Máximo"
+
+msgid "Graphics Export Settings"
+msgstr "Configuración de Exportación de Gráficos"
+
+msgid "Device type"
+msgstr "Tipo de dispositivo"
+
+msgid "Width (px)"
+msgstr "Ancho (px)"
+
+msgid "Height (px)"
+msgstr "Alto (px)"
+
+msgid "Resolution (ppi)"
+msgstr "Resolución (ppi)"
+
+msgid "Background Override"
+msgstr "Sobrescribir Fondo"
+
+msgid "Follow Dark Mode settings"
+msgstr "Seguir configuración del Modo Oscuro"
+
+msgid "Transparent"
+msgstr "Transparente"
+
+msgid "White"
+msgstr "Blanco"
+
+msgid "Save Plot Object"
+msgstr "Guardar Objeto de Gráfico"
+
+msgid "Data Input"
+msgstr "Entrada de Datos"
+
+msgid "Appearance"
+msgstr "Apariencia"
+
+msgid "Output & Export"
+msgstr "Salida y Exportación"
